@@ -3,6 +3,8 @@ const myself = { name: 'selim', age: 25, religion: 'Islam', wish: 'jannah' }
 const { name, age, religion, wish } = myself
 console.log(name, age, religion, wish, age + 100)
 
+
+
 const { name: nam, age: boyos, religion: deen, wish: iccah } = myself
 console.log(nam, boyos, iccah, deen)
 
