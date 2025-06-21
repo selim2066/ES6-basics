@@ -17,3 +17,8 @@ let b = 'nirob';
 
 [a, b] = [b, a]
 console.log(a, b)
+
+// keys and values obj
+
+console.log(Object.keys(myself))
+console.log(Object.values(myself))
