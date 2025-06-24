@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API</title>
+
+    <style>
+        .postStyle{
+           background-color: skyblue;
+           padding: 30px; 
+           font-size: 40px;
+           margin: 20px;
+           text-align: center;
+           border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,11 +33,17 @@
         style="width: 300px; height: 50px; font-size:40px; background-color: rgb(3, 3, 3); border: none; color: whitesmoke;"
         onclick="loadUsers()">Users Name</button>
 
-        <div class="users-div">
-            <ul id="usersList">
+    <div class="users-div">
+        <ul id="usersList">
 
-            </ul>
-        </div>
+        </ul>
+    </div>
+    <div id="postContainer">
+        <h1>all post are here</h1>
+
+    </div>
+
+    <script src="post-dynamic.js"></script>
     <script src="api.js"></script>
     <script src="app.js"></script>
 </body>
