@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+</head>
+
+<body>
+    <center>
+        <h1>api learning, fetch</h1>
+    </center>
+
+    <button style="width: 200px; height: 50px; font-size: 45px; color:yellow; background-color:red; border: none;"
+        onclick="loadUsers()">users</button> <br> <br>
+    <button
+        style="width: 200px; height: 50px; font-size:40px; background-color: green; border: none; color: whitesmoke;"
+        onclick="todo()">todo</button>
+    <br> <br>
+    <button id="usersName"
+        style="width: 300px; height: 50px; font-size:40px; background-color: rgb(3, 3, 3); border: none; color: whitesmoke;"
+        onclick="loadUsers()">Users Name</button>
+
+        <div class="users-div">
+            <ul id="usersList">
+
+            </ul>
+        </div>
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
