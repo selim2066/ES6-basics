@@ -31,3 +31,10 @@ const asyncTryCatch = async() => {
     }
     console.log("code run hoise")
 }
+
+
+// quiz
+async function myFunction() {
+ return "Hello";
+}
+myFunction().then(console.log);
