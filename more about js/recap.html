@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recap async/await promise </title>
+    
+    <style>
+    button {
+        width: 120px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #1bbcd19d; /* Indigo */
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        margin-right: 10px; /* gap between buttons horizontally */
+        margin-bottom: 10px; /* gap if buttons go vertically */
+    }
+
+    button:hover {
+        background-color: #f50216; /* Darker indigo */
+        transform: scale(1.05);
+    }
+
+    button:active {
+        transform: scale(0.98);
+    }
+</style>
+
+</head>
+
+<body>
+    <center>
+        <h1>Recap async/await promise</h1>
+
+        <button onclick="loadUser()">fetch</button>
+        <button onclick="asyncLoadUser()">Async Await</button>
+        <button onclick="arrowAsyncUser()">Arrow Async</button>
+        <button onclick="asyncTryCatch()">Async Try Catch</button>
+    </center>
+    <script src="recap.js"></script>
+</body>
+
+</html>
